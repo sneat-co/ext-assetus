@@ -26,7 +26,7 @@ export default [
         'error',
         {
           type: 'attribute',
-          prefix: 'template',
+          prefix: 'assetus',
           style: 'camelCase',
         },
       ],
@@ -34,7 +34,7 @@ export default [
         'error',
         {
           type: 'element',
-          prefix: 'template',
+          prefix: 'assetus',
           style: 'kebab-case',
         },
       ],
