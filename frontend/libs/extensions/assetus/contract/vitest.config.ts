@@ -14,6 +14,9 @@ export default defineConfig({
     ],
   },
   test: {
+    coverage: {
+      reporter: ['text', 'lcov'],
+    },
     // asset.service.spec mocks @angular/fire/firestore (getHistory reads
     // Firestore directly). Isolated forks give every test file its own module
     // registry so that mock can never leak into sibling specs that use the real
